@@ -1,0 +1,52 @@
+{
+    "_id": 258,
+    "created_by": {
+        "_id": 42,
+        "fullname": "Saurabh Pandey",
+        "picture": "",
+        "bio": ""
+    },
+    "app_image": "https://s3.amazonaws.com/jennie.cdn/images/1676229851-5775588.png",
+    "app_name": "read_excel_aws_lamda_api_gateway",
+    "app_title": "Read Excel via AWS Lamda and API gateway using Terraform",
+    "app_description": "The automation helps user to automate AWS Lamda and AWS API gateway deployment using terraform to read a public listed excel file.",
+    "tag": "read-google-sheet,aws_gateway,aws_lambda,terraform",
+    "stack": "terraform",
+    "type": "terraform-automations",
+    "automation_conf": [
+        {
+            "event_type": "download-files",
+            "files": [
+                {
+                    "out_path": "./output.tf",
+                    "file_link": "https://s3.amazonaws.com/jennie.cdn/terraform-automations/read_excel_aws_lamda_api_gateway/output.tf"
+                },
+                {
+                    "out_path": "./main.tf",
+                    "file_link": "https://s3.amazonaws.com/jennie.cdn/terraform-automations/read_excel_aws_lamda_api_gateway/main.tf"
+                },
+                {
+                    "out_path": "./terraform.tfvars",
+                    "file_link": "https://s3.amazonaws.com/jennie.cdn/terraform-automations/read_excel_aws_lamda_api_gateway/terraform.tfvars"
+                },
+                {
+                    "out_path": "./providers.tf",
+                    "file_link": "https://s3.amazonaws.com/jennie.cdn/terraform-automations/read_excel_aws_lamda_api_gateway/providers.tf"
+                },
+                {
+                    "out_path": "./variables.tf",
+                    "file_link": "https://s3.amazonaws.com/jennie.cdn/terraform-automations/read_excel_aws_lamda_api_gateway/variables.tf"
+                },
+                {
+                    "out_path": "src/lambda_function.py",
+                    "file_link": "https://s3.amazonaws.com/jennie.cdn/terraform-automations/read_excel_aws_lamda_api_gateway/lambda_function.py"
+                }
+            ]
+        }
+    ],
+    "dependencies": "[]",
+    "readme": "https://s3.amazonaws.com/jennie.cdn/terraform-automations/read_excel_aws_lamda_api_gateway/readme.md",
+    "is_active": false,
+    "created_on": "2023-02-12T15:17:32.038277Z",
+    "updated_on": "2023-02-12T19:24:21.704770Z"
+}

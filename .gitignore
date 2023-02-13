@@ -1,0 +1,8 @@
+.terraform
+.terraform.lock.hcl
+credentials
+terraform.tfstate
+terraform.tfstate.backup
+*.sh
+*.zip
+.DS_Store
